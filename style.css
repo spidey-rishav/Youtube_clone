@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', Arial, 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+}
+
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo img{
+    margin-left: 20px;
+    height: auto;
+    width: 150px;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar input{
+    height: 40px;
+    border: 0.5px solid gray;
+    border-radius: 40px 0 0 40px;
+    min-width: 600px;
+    padding: 10px 20px;
+}
+
+.searchbar img{
+    height: 20px;
+    width: 20px;
+}
+
+.searchbar button{
+    height: 40px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    padding: 5px;
+    border: 0.5px solid gray;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mic{
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.mic img{
+    height: 30px;
+    width: 30px;
+}
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side img{
+    height: auto;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.tags{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.tag {
+    display: grid;
+    place-content: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.dark{
+    color: white;
+    background: black;
+}
+
+.light{
+    background: rgb(238, 238, 238);
+    color: rgb(67, 67, 67);
+}
+
+.container{
+    display: flex;
+}
+
+aside{
+    margin-right: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.side_icons{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.side_icons img{
+    height: 25px;
+    width: 25px;
+}
+
+.side_icons p{
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+.side_icons:hover{
+    width: 100%;
+    background: rgb(238, 238, 238);
+}
+
+/* .bars{
+    margin-top: 5px;
+} */
+.bars img{
+    height: 50px;
+    width: 50px;
+}
+
+aside hr{
+    width: 100%;
+}
+
+.main_container{
+    width: 100%;
+}
+
+.videos_container{
+    margin-left: 10px;
+    display: flex;
+}
+.video{
+    margin-right: 10px;
+    padding: 10px;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar_content{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.context{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.video img{
+    height: 180px;
+    border-radius: 20px;
+}
+
+.avatar{
+    padding: 10px;
+}
+
+.avatar img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+main{
+    min-height: 100vh;
+}
+
+.title h3{
+    font-size: 18px;
+}
+.videos_container p{
+    font-size: 15px;
+}
+
+.views{
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+}
+
+.fs{
+    font-weight: bold;
+}
+
+.dot{
+    padding: 5px;
+}
+
+.shortsnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shortslogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.shortslogo h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.shortslogo img{
+    height: 50px;
+    width: 50px;
+}
+
+.options img{
+    height: 20px;
+    width: 20px;
+}
+
+.shorts_container{
+    padding: 0px 30px;
+}
+
+.shorts{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.shortscard{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+}
+
+.shortscard img{
+    border-radius: 20px;
+    height: 400px;
+}
+
+.shorts_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.shorts_content img{
+    height: 20px;
+    width: 20px;
+}
+
+.shorts_title h3{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.shorts_title p{
+    padding: 5px 0px;
+}
